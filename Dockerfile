@@ -1,4 +1,4 @@
-FROM relateiq/oracle-java8
+FROM eclipse-temurin:21-jdk
 
 RUN mkdir -p /usr/src/app
 COPY . /usr/src/app/
